@@ -1,0 +1,32 @@
+Bug Title: Kullanıcı Girişi Sorunu - Oturum Açma Başarısız
+
+Bug Description:
+"Kullanıcı, kullanıcı adını ve şifresini girdikten sonra 'Login' düğmesine bastığında,
+oturum açma işlemi başlatılmalıdır.
+Ancak, oturum açma işlemi başarısız oluyor ve kullanıcı 'Login' ekranında kalıyor."
+
+
+Steps to Reproduce:
+
+1.Uygulama açılır.
+2.Kullanıcı "Login" ekranına gidilir.
+3.Kullanıcı adı ve şifre girilir.
+4."Login" düğmesine tıklanır.
+
+Expected Result: Kullanıcı adı ve şifre doğru ise, kullanıcı başarılı bir şekilde oturum açmalıdır ve ana ekrana yönlendirilmelidir.
+Actual Result: Kullanıcı adı ve şifre doğru olsa bile, oturum açma işlemi başarısız oluyor ve kullanıcı "Login" ekranında kalıyor.
+
+
+ScreenShots:
+
+Environment Information: Google Chrome- Microsoft Windows 10
+
+Priority: Critical
+
+Additional Notes : Bu hata, Test Senaryosu US_10 ile ilişkilidir.
+                   Bu sorun daha önce rapor edilmiş bir sorun değildir ve benzer hatalarla ilgili bilgi yoktur.
+                   Ekran görüntüsü [Ekran Görüntüsü Adı] adlı dosya ile eklenmiştir ve [Ekran Görüntüsü Adı] ekranındaki hata mesajını göstermektedir.
+                   Bu hata, Windows 10 işletim sistemi ve Google Chrome tarayıcı kullanılarak çoğaltılmıştır.
+                   Benzer bir hata başka senaryolarda da gözlemlenmiştir.
+
+
